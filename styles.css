@@ -1,0 +1,89 @@
+body{
+    background-color: #292929;
+    color:#f8f8f8;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1.7em;
+    transition: all .2s ease-in-out;
+}
+
+img{
+  object-fit: cover;
+  padding-top: -15%;
+}
+
+.center{
+    transition: all .2s ease-in-out;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 48px;
+    align-content: justify;
+    text-align: justify;
+}
+
+.btn-plus { 
+    transition: all .2s ease-in-out;
+    background-image: url("img/plus.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 50% 50%;
+    margin-top: 48px;
+    width: 15%;
+    padding-top: 15%;
+    height: 0;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 100%;
+    transition: all 0.75s ease;
+    outline: 0;
+}
+.btn-plus:hover { 
+    transform: scale(1.2); 
+    background-image: url("img/plus-white.png");
+    background-position: center; 
+    background-color: #5b63ac;
+    color:white;
+}
+
+.btn-plus:focus{
+  background-image: url("img/plus-white.png");
+  background-color: #414a99;
+  background-position: center; 
+  color: white;
+  transform: scale(1.2);
+}
+
+.hamburger { 
+  transition: all .2s ease-in-out;
+  background-image: url("img/hamburger.png");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: 50% 50%;
+  width: 48px;
+  padding-top: 48px;
+  height: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background-color: #2b2b2b;
+  color: black;
+  border: none;
+  transition: all 0.75s ease;
+  outline: 0;
+}
+.hamburger:hover { 
+  background-image: url("img/hamburger.png");
+  background-position: center; 
+  background-color: #222222;
+  color:white;
+}
+
+.hamburger:focus{
+background-image: url("img/hamburger.png");
+background-color: #1a1a1a;
+background-position: center; 
+color: white;
+}
